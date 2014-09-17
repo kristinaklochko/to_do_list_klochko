@@ -21,11 +21,11 @@ class Task < ActiveRecord::Base
   end
 
   def challenge_completed(params)
-    @task.update(params)
+    self.update(params)
   end
 
   def prioritization(params)
-    @task.insert_at(params[:position])
+    self.insert_at(params[:position])
   end
 
   def destroy_procedure(params)
