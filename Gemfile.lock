@@ -148,8 +148,6 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.1.0)
-    rb-fchange (0.0.6)
-      ffi
     rb-fsevent (0.9.3)
     rb-inotify (0.9.1)
       ffi (>= 0.5.0)
@@ -242,8 +240,6 @@ DEPENDENCIES
   pry-rails
   rails (= 4.0.0)
   rails_12factor
-  rb-fchange
-  rb-fsevent
   rb-inotify
   rspec-rails
   sass-rails (~> 4.0.0)
