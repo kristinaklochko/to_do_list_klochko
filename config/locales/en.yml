@@ -1,0 +1,51 @@
+en:
+  application:
+    footer:
+      message: '@ To Do List'
+    header:
+      brand: 'To Do List'
+      application: 'home'
+
+  auth:
+    sign_in: 'sign in'
+    sign_up: 'sign up'
+    sign_out: 'sign out'
+
+  common:
+    please_wait: 'please wait '
+    are_you_sure?: 'are you sure?'
+    submit: 'submit'
+    delete: 'delete'
+    x:      '×'
+
+
+  
+  activerecord:
+    models:
+      project: 'TODO List'
+      attributes:
+        project:
+          name: 'name'
+
+
+
+  welcome:
+    index:
+      header: 'welcome!'
+      news: 'you can create a new <a class="important" href="%{url}">TODO list</a> for you'
+
+  authenticated:
+    projects:
+      index:
+        header: 'lists'
+        new: 'add TODO list'
+      project:
+        destroy: 'destroy project'
+    tasks:
+      new:
+        input_placeholder: 'add new task'
+      task: 
+        edit: 'edit'
+        move: 'move'
+        complete: 'mark as completed'
+        uncomplete: 'mark as uncompleted'
