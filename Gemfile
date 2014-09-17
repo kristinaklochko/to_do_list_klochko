@@ -25,9 +25,16 @@ gem 'selenium-webdriver'
 gem 'pry-rails'
 gem 'factory_girl_rails' 
 gem 'rspec-rails'
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
 group :development do
   gem 'rb-inotify', :require => false
   gem 'rb-fsevent', :require => false
   gem 'rb-fchange', :require => false
 end
-
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
